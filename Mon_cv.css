@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: calibri;
+}
+
+body {
+    background-color: #110e1c;
+    color: white;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    background-color:transparent;
+    margin-top: 2%;
+}
+.logo{
+   padding-top: 18px;
+   font-size: 25px;
+   color: #fff;
+   margin-right: 42%;
+   text-decoration: none;
+   font-family:  'Protest Strike', sans-serif;
+}
+b{
+    color: #ffd215;
+    font-family:  sans-serif;
+}
+nav button{
+    display: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+nav button span{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: white;
+}
+
+ nav ul li{
+    display: flex;
+    float: inline-end;
+    margin: 20px;
+    font-size: 18px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffd215;
+}
+.section{
+    margin: 6%;
+    width: 50%;
+}
+.div h1{
+    font-size: 50px;
+   font-family: 'Inria' Sans;
+   font-weight:900 
+}
+.div h3{
+    font-size: 30px;
+    color: #ffd215;
+}
+.div p{
+    font-size: 18px;
+
+}
+.aside{
+    padding-top: 5%;
+    margin: 2%;
+}
+.aside img{
+    float: inline-end;
+    width: 50%;
+    padding-right: 20%;
+    animation-name: fade;
+    animation-delay: 2s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@media screen and (max-width:1040px ) {
+   nav ul li {
+        margin:10px ;
+    }
+}
+
+@media screen and (max-width:870px ){
+    nav ul li {
+        margin: 5px;
+
+    }
+    .logo{
+        margin-right: 30%;
+        padding-top: 5px;
+    }
+}
+
+@media screen and (max-width:685px ){
+    .header{
+        border-radius: 10px;
+        width: 100%;
+        margin: 5px;
+    }
+    nav ul li {
+        margin: 4px;
+        margin-right: 25px;
+        float:right;
+    }
+    .logo{
+        margin-left: 8px;
+        padding-top: 2px;
+        font-size: 20px;
+    }
+    .aside {
+        display: flex;
+        justify-content: center;
+        margin-left: 45%;
+        width: 100%;
+    }
+   .div h1{
+font-size: 30px;
+    }
+    .div h3{
+       font-size: 20px;
+    }
+
+    footer h1{
+        margin-right: 15px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:620px ){
+    nav ul li{
+        display: block;
+        color: #c3c3c3;
+        padding: 0px;
+        margin: 2px 2px 40px 5px;
+            font-family: 'agency fb';
+            font-weight: 900;
+            font-style: normal;
+    }
+    .header{
+        height: 100%;
+    }
+}
+@media screen and (max-width:500px ){
+    nav ul li{
+      display: none;
+    }
+    nav.responsive ul li{
+        display: block;
+        float: none;
+    }
+    .section p {
+        font-size: 15px;
+    }
+    .section{
+        width: 80%;
+    }
+    .section h1{
+        font-size: 25px;
+    }
+    nav button{
+        display: block;
+        float: right;
+        margin: 2px;
+        margin-left: 25px;
+    }
+}
+
+div a{
+    background-color: #ffd215;
+    border-radius: 10px;
+    margin-left: 10%;
+    color: black;
+}
+div a{
+    font-size:15px;
+    text-decoration: none;
+}
+
+footer{
+    padding-left: 44%;
+}
+footer h1{
+    display:flex ;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 17px;
+    color: #fff;
+
+}
+footer img{
+    border-radius: 50%;
+    width: 25px;
+    margin: 2px;
+    background-color: #ffd212;
+    animation-name: fade;
+    animation-delay: 5s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+footer a :hover{
+    background-color: #fff;
+}
+@keyframes fade{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
