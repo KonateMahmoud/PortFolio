@@ -203,11 +203,3 @@ footer img{
 footer a :hover{
     background-color: #fff;
 }
-@keyframes fade{
-    from{
-        opacity: 1;
-    }
-    to{
-        opacity: 0;
-    }
-}
