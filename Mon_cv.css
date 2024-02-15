@@ -199,10 +199,6 @@ footer img{
     width: 25px;
     margin: 2px;
     background-color: #ffd212;
-    animation-name: fade;
-    animation-delay: 5s;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
 }
 footer a :hover{
     background-color: #fff;
